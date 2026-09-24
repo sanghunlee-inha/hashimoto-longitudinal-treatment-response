@@ -1,0 +1,17 @@
+analysis,metric,estimate,ci_low,ci_high,p,n,patient_n
+Final_locked_ML,R2,0.378221,,,,"1022","458"
+Final_locked_ML,RMSE,0.755986,,,,"1022","458"
+Final_locked_ML,MAE,0.509698,,,,"1022","458"
+Final_locked_ML,Pearson_r,0.615550,,,,"1022","458"
+Final_locked_ML,Spearman_rho,0.484154,,,,"1022","458"
+ML_vs_TSH_only,delta_R2,0.148373,0.102228,0.193021,<0.0001,1022,458
+ML_vs_TSH_only,delta_RMSE,0.085378,0.056441,0.113470,<0.0001,1022,458
+ML_vs_TSH_only,delta_MAE,0.021858,0.001824,0.041779,0.0336,1022,458
+ML_vs_TSH_only,delta_Pearson_r,0.135601,0.090429,0.174665,<0.0001,1022,458
+ML_vs_TSH_only,delta_Spearman_rho,0.102750,0.060257,0.144118,<0.0001,1022,458
+Trajectory_direct,Pearson_r,0.580797,0.485349,0.666854,,564,329
+Trajectory_direct,Spearman_rho,0.496781,0.416834,0.570189,,564,329
+Trajectory_innovation,Pearson_r,0.417059,0.318857,0.513924,,564,329
+Trajectory_innovation,Spearman_rho,0.466841,0.376295,0.553594,,564,329
+Cross_lag,predicted_next_beta,0.901097,0.665502,1.136691,6.558292e-14,564,329
+Cross_lag,current_response_beta,-0.070091,-0.188579,0.048397,0.246291,564,329

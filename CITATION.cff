@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+title: "Longitudinal treatment-response prediction in treated Hashimoto thyroiditis"
+type: software
+authors:
+  - family-names: "Lee"
+    given-names: "Sang Hun"
+repository-code: "https://github.com/sanghunlee-inha/hashimoto-longitudinal-treatment-response"

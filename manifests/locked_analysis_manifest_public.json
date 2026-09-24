@@ -1,0 +1,27 @@
+{
+  "cohort": {
+    "rows": 1022,
+    "patients": 458,
+    "consecutive_pairs": 564,
+    "consecutive_pair_patients": 329
+  },
+  "target": "outcome_log_excess_reduction",
+  "feature_set_n": 39,
+  "bootstrap_replicates": 20000,
+  "random_seed": 42,
+  "source_file_name": "03_ALL_TRANSITIONS.csv",
+  "source_sha256": "628365874bb5c344579104227b21a9d912a2c0127ded2dc4348a2e335bd8dbb8",
+  "oof_file_name": "07_FINAL_1022_AVERAGED_OOF.csv.gz",
+  "oof_sha256": "b099ac4474f84468a7b25b9c5c16c093c54e02d808e49fcb3e70bcb6e4589bb9",
+  "clinical_benchmark": {
+    "tsh_col": "baseline_tsh",
+    "ft4_col": null,
+    "lt4_dose_col": null
+  },
+  "policies": {
+    "no_synthetic_dates": true,
+    "no_automatic_time_transform": true,
+    "no_first_observed_as_onset": true,
+    "no_model_output_as_truth": true
+  }
+}
